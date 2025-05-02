@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <section id="home">
+                <h1>Welcome to My Portfolio</h1>
+                <img src="home.jpeg" alt="Promo 1">
+                <p>Discover my work and experience</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am Krupa Bhosale </p>
+                <p>A passionate and dedicated Computer Science student, always eager to learn and explore new technologies. With a keen interest in [your specific interests or areas, like AI, web development, or game design], I strive to continuously enhance my skills and deliver impactful solutions. Outside of tech, I enjoy [mention any hobbies like painting, reading, swimming, etc.]. I'm excited to connect and collaborate on innovative projects!</p>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="project-card">
+                    <h3>Project 1: Simple eCommerce Website</h3>
+                    <img src="ecommerce.jpeg" alt="eCommerce Website" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>
+                       A basic eCommerce website layout that displays products with images, prices, and an “Add to Cart” feature. Designed for a smooth user experience with a sidebar, homepage, and shopping cart icon for easy navigation.
+                    </p>
+                    <h4>Features:</h4>
+                    <ul>
+                       <li>Product grid with images and pricing.</li>
+                       <li>Sidebar for quick navigation.</li>
+                       <li>Cart icon with item count display.</li>
+                       <li>Clean and responsive layout.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: Task Management App</h3>
+                    <img src="task.jpeg" alt="Task Management App" style="width:100%; height:auto; border-radius: 8px;">
+                    <p>
+                       A simple task management web app that allows users to create, edit, mark tasks as completed, and delete them. The app uses LocalStorage to save tasks, ensuring data persistence even after page refreshes. It provides a clean, user-friendly interface to manage daily tasks efficiently.
+                    </p>
+                    <h4>Features:</h4>
+                    <ul>
+                        <li>Create tasks with title and description.</li>
+                        <li>Edit and mark tasks as completed.</li>
+                        <li>Delete tasks when no longer needed.</li>
+                        <li>Data stored using LocalStorage for persistence.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email: krupabhosale08@gmail.com</p>
+                <button onclick="alert('Contact form coming soon!')">Contact Form</button>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+          </footer>
+        
+          <script src="script.js"></script>
+
+    </div>
+    
+</body>
+</html>
