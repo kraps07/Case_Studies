@@ -1,2 +1,2 @@
 # Case_Studies
-<h1>krupa </h1>
+<h6>krupa </h6>
