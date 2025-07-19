@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple eCommerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>ShopEasy</h2>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+
+    <!-- Main content -->
+    <main class="main-content">
+
+
+      <!-- Home Section -->
+      <section id="home" class="home-container">
+        <h1>Welcome to ShopEasy</h1>
+        <p>Your one-stop shop for everything you need!</p>
+
+
+        <!-- Home Images -->
+        <div class="home-images">
+          <img src="home.jpeg" alt="Promo 1">
+          <img src="home2.jpg" alt="Promo 2">
+        </div>
+      </section>
+
+
+      <!-- Products Section -->
+      <section id="products" class="product-container">
+        <h1>Products</h1>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="product1.jpeg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$10.00</p>
+            <button onclick="addToCart('Product 1')">Add to Cart</button>
+          </div>
+
+
+          <div class="product-card">
+            <img src="product2.jpeg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$20.00</p>
+            <button onclick="addToCart('Product 2')">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- Shopping cart icon -->
+    <div class="cart">
+      <img src="cart.png" alt="Cart Icon" />
+      <span id="cart-count">0</span>
+    </div>
+  </div>
+    
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+</div> <!-- End of .container -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
